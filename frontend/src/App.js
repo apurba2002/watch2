@@ -20,10 +20,10 @@ function App() {
       document.getElementById("top-2").style.display = "none";
       document.getElementById("top-1").style.display = "block";
 
+
     }, 6000)
 
   }, 6000)
-
 
   return (
     <>
