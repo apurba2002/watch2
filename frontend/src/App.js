@@ -4,6 +4,7 @@ import Nav from './component/nav';
 import Top from './component/top';
 import './function.css';
 import Detail from './component/detail';
+import Left_img from './component/left-img';
 function App() {
   let top_1_img = "asset/1818983.png.transform.global_square_image_500.avif"
   let top_1_tittle_1 = "paneri"
@@ -17,9 +18,17 @@ function App() {
 
 
 
-  let detail_1_tittle_1="marina militare carbotech";
-  let detail_1_tittle_2="pam979";
-  let detail_1_img="asset/details.jpg";
+  let detail_1_tittle_1 = "marina militare carbotech";
+  let detail_1_tittle_2 = "pam979";
+  let detail_1_img = "asset/details.jpg";
+
+
+  let Left_img_1_img = "asset/leftimg1.jpg";
+  let Left_img_1_tittle_1 = "people create all kind of";
+  let Left_img_1_tittle_2 = "fancy watches";
+  let Left_img_1_price = "$240";
+
+
 
 
 
@@ -31,6 +40,7 @@ function App() {
           <Top img={top_1_img} tittle_1={top_1_tittle_1} tittle_2={top_1_tittle_2} />
         </div>
         <Detail tittle_1={detail_1_tittle_1} tittle_2={detail_1_tittle_2} img={detail_1_img} />
+        <Left_img tittle_1={Left_img_1_tittle_1} tittle_2={Left_img_1_tittle_2} price={Left_img_1_price} img={Left_img_1_img} />
 
       </div>
 
