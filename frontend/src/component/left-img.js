@@ -3,8 +3,8 @@ import '../animation.css';
 function Left_img(props) {
     return (
         <>
-            <div class="left-img">
-                <div class="left-img-txt">
+            <div className="left-img">
+                <div className="left-img-txt">
                     <p>{props.tittle_1}</p>
                     <p>{props.tittle_2}</p>
                     <p>{props.price}</p>
@@ -14,7 +14,7 @@ function Left_img(props) {
                     </p>
                     <button>buy now</button>
                 </div>
-                <div class="left-img-img">
+                <div className="left-img-img">
                     <img src={props.img} alt="" />
                 </div>
             </div>
