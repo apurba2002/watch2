@@ -6,10 +6,10 @@ import "./function.css";
 import Detail from "./component/detail";
 import Left_img from "./component/left-img";
 import Right_img from "./component/right_img";
+import Product_list from "./component/product-list";
 function App() {
-
   //for change any kind of data change the value of the variable.
-  
+
   let top_1_img = "asset/1818983.png.transform.global_square_image_500.avif";
   let top_1_tittle_1 = "paneri";
   let top_1_tittle_2 = "submersible";
@@ -32,6 +32,29 @@ function App() {
   let Right_img_1_tittle_2 = "fancy watches";
   let Right_img_1_price = "$240";
 
+  let product_list_product_1_img = "asset/black.png";
+
+  let product_list_product_2_img = "asset/orange.png";
+
+  let product_list_product_3_img = "asset/gray.png";
+
+  let product_list_product_4_img =
+    "asset/1818654.png.transform.global_square_image_500.avif";
+
+  let product_list_product_1_tittle_1 = "breting choroliner";
+  let product_list_product_2_tittle_1 = "jungharna speaktrum";
+  let product_list_product_3_tittle_1 = "turbine gmt de";
+  let product_list_product_4_tittle_1 = "Submersible";
+
+  let product_list_product_1_tittle_2 = "black steel";
+  let product_list_product_2_tittle_2 = "automatic";
+  let product_list_product_3_tittle_2 = "perfect";
+  let product_list_product_4_tittle_2 = "Paneri";
+
+  let product_list_product_1_price = "$220";
+  let product_list_product_2_price = "$190";
+  let product_list_product_3_price = "$270";
+  let product_list_product_4_price = "$240";
   return (
     <>
       <Nav />
@@ -71,6 +94,24 @@ function App() {
           />
         </div>
       </div>
+      <Product_list
+        product_1_img={product_list_product_1_img}
+        product_2_img={product_list_product_2_img}
+        product_3_img={product_list_product_3_img}
+        product_4_img={product_list_product_4_img}
+        product_1_tittle_1={product_list_product_1_tittle_1}
+        product_2_tittle_1={product_list_product_2_tittle_1}
+        product_3_tittle_1={product_list_product_3_tittle_1}
+        product_4_tittle_1={product_list_product_4_tittle_1}
+        product_1_tittle_2={product_list_product_1_tittle_2}
+        product_2_tittle_2={product_list_product_2_tittle_2}
+        product_3_tittle_2={product_list_product_3_tittle_2}
+        product_4_tittle_2={product_list_product_4_tittle_2}
+        product_1_price={product_list_product_1_price}
+        product_2_price={product_list_product_2_price}
+        product_3_price={product_list_product_3_price}
+        product_4_price={product_list_product_4_price}
+      />
     </>
   );
 }
