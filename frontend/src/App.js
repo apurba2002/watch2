@@ -7,6 +7,7 @@ import Detail from "./component/detail";
 import Left_img from "./component/left-img";
 import Right_img from "./component/right_img";
 import Product_list from "./component/product-list";
+import Footer from "./component/footer";
 function App() {
   //for change any kind of data change the value of the variable.
 
@@ -112,6 +113,7 @@ function App() {
         product_3_price={product_list_product_3_price}
         product_4_price={product_list_product_4_price}
       />
+      <Footer />
     </>
   );
 }
