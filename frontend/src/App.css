@@ -56,6 +56,17 @@ body {
   margin: 0;
   text-align: center;
 }
+.nav div a {
+  font-size: 22px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  list-style: none;
+  text-transform: capitalize;
+  color: white;
+  font-weight: 500;
+  margin: 0;
+  text-align: center;
+  text-decoration: none;
+}
 
 .nav img {
   width: calc(40px - 1px);

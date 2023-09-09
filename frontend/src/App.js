@@ -12,6 +12,7 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./component/layout";
 import Home from "./component/home";
+import Product2 from "./component/product2";
 
 export let top_1_img =
   "asset/1818983.png.transform.global_square_image_500.avif";
@@ -64,7 +65,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
-          
+          <Route path="p2" element={<Product2 />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>
