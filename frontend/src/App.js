@@ -14,8 +14,9 @@ import Layout from "./component/layout";
 import Home from "./component/home";
 import Product2 from "./component/product2";
 
+export let nav_1_color="#4b5320";
 export let top_1_img =
-  "asset/1818983.png.transform.global_square_image_500.avif";
+  "asset/1818654.png.transform.global_square_image_500.avif";
 export let top_1_tittle_1 = "paneri";
 export let top_1_tittle_2 = "submersible";
 export let top_2_img = "asset/black.png";

@@ -29,7 +29,7 @@ import { Outlet } from "react-router-dom";
 function Layout() {
   return (
     <>
-      <Nav />
+    
       <Outlet />
       
       <Product_list

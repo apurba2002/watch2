@@ -1,9 +1,9 @@
 import { Link } from 'react-router-dom';
 import '../App.css';
-function Nav() {
+function Nav(props) {
     return (
         <>
-            <div className="nav-wap">
+            <div className="nav-wap" style={{backgroundColor:props.color}}>
                 <div className="nav">
                     <p>watch</p>
                     <div>

@@ -1,10 +1,10 @@
 import Top from "../component/top";
-
+import Nav from "../component/nav";
 import Left_img from "../component/left-img";
 import Right_img from "../component/right_img";
 import "../App.css";
 
-import { top_1_img } from "../App";
+import { nav_1_color, top_1_img } from "../App";
 import { top_1_tittle_1 } from "../App";
 import { top_1_tittle_2 } from "../App";
 import { detail_1_img } from "../App";
@@ -25,6 +25,7 @@ function Home() {
     <>
       <div id="product-1">
         <div id="top-1">
+        <Nav color={nav_1_color} />
           <Top
             img={top_1_img}
             tittle_1={top_1_tittle_1}

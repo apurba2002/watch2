@@ -5,7 +5,7 @@ import '../animation.css';
 function Top(props) {
     return (
         <>
-            <div className="top">
+            <div className="top"  style={{backgroundColor:props.color}}>
                 <div className="hero">
                     <div className="hero-txt">
                         <p>{props.tittle_1}</p>
