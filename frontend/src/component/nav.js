@@ -8,8 +8,8 @@ function Nav(props) {
                     <p>watch</p>
                     <div>
                         <p><Link to="/">Home</Link></p>
-                        <p><Link to="/p2">product</Link></p>
-                        <p>about</p>
+                        <p><a href='#product'>Products</a></p>
+                        <p><a href='#detail'>about</a></p>
                         <p>review</p>
                     </div>
                     <img

@@ -13,8 +13,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./component/layout";
 import Home from "./component/home";
 import Product2 from "./component/product2";
+import Product3 from "./component/product3";
+import Product4 from "./component/product4";
 
-export let nav_1_color="#4b5320";
+export let nav_1_color = "#4b5320";
 export let top_1_img =
   "asset/1818654.png.transform.global_square_image_500.avif";
 export let top_1_tittle_1 = "paneri";
@@ -65,8 +67,11 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<Layout />}>
-          <Route index element={<Home />} />
+          <Route index element={<Product3 />} />
           <Route path="p2" element={<Product2 />}></Route>
+          <Route path="p3" element={<Product3 />}></Route>
+          <Route path="p4" element={<Home />}></Route>
+          <Route path="p5" element={<Product4 />}></Route>
         </Route>
       </Routes>
     </BrowserRouter>

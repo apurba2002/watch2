@@ -3,7 +3,7 @@ import '../animation.css';
 function Detail(props) {
     return (
         <>
-            <div className="detail">
+            <div className="detail" id='detail'>
                 <div className="detail-img">
                     <img src={props.img} alt="" />
                 </div>

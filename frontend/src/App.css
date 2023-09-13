@@ -1,6 +1,10 @@
 body {
   margin: 0;
 }
+html{
+  scroll-behavior: smooth;
+  scroll-padding-top: 40px;
+}
 
 .top {
   width: 100%;
