@@ -16,12 +16,12 @@ let detail_2_tittle_1 = "breting choroliner";
 let detail_2_tittle_2 = "pblack steel";
 let detail_2_img = "asset/black.png";
 
-let Left_img_2_img = "asset/p2.2.jpg";
+let Left_img_2_img = "asset/p2.2.png";
 let Left_img_2_tittle_1 = "people create all kind of";
 let Left_img_2_tittle_2 = "fancy watches";
 let Left_img_2_price = "$220";
 
-let Right_img_2_img = "asset/p2.1.jpg";
+let Right_img_2_img = "asset/p2.1.png";
 let Right_img_2_tittle_1 = "people create all kind of";
 let Right_img_2_tittle_2 = "fancy watches";
 let Right_img_2_price = "$220";

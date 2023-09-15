@@ -5,23 +5,23 @@ import Left_img from "./left-img";
 import Right_img from "./right_img";
 import Nav from "./nav";
 
-let nav_4_color = "#cfc82c";
+let nav_4_color = "red";
 
 let top_4_img = "asset/gray.png";
 let top_4_tittle_1 = "Turbine Gmt De";
 let top_4_tittle_2 = "Perfect";
-let top_4_color = "#cfc82c";
+let top_4_color = "red";
 
 let detail_4_tittle_1 = "Turbine Gmt De";
 let detail_4_tittle_2 = "Perfect";
 let detail_4_img = "asset/gray.png";
 
-let Left_img_4_img = "asset/p4.1.jpg";
+let Left_img_4_img = "asset/p4.1.png";
 let Left_img_4_tittle_1 = "people create all kind of";
 let Left_img_4_tittle_2 = "fancy watches";
 let Left_img_4_price = "$270";
 
-let Right_img_4_img = "asset/p4.1.jpg";
+let Right_img_4_img = "asset/p4.1.png";
 let Right_img_4_tittle_1 = "people create all kind of";
 let Right_img_4_tittle_2 = "fancy watches";
 let Right_img_4_price = "$270";

@@ -16,12 +16,12 @@ let detail_3_tittle_1 = "Jungharna Speaktrum";
 let detail_3_tittle_2 = "Automatic";
 let detail_3_img = "asset/orange.png";
 
-let Left_img_3_img = "asset/p3.1.jpg";
+let Left_img_3_img = "asset/p3.1.png";
 let Left_img_3_tittle_1 = "people create all kind of";
 let Left_img_3_tittle_2 = "fancy watches";
 let Left_img_3_price = "$190";
 
-let Right_img_3_img = "asset/p3.0.jpg";
+let Right_img_3_img = "asset/p3.0.n.png";
 let Right_img_3_tittle_1 = "people create all kind of";
 let Right_img_3_tittle_2 = "fancy watches";
 let Right_img_3_price = "$190";

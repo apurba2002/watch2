@@ -26,14 +26,14 @@ export let top_2_tittle_1 = "breting choroliner";
 export let top_2_tittle_2 = "black steel";
 export let detail_1_tittle_1 = "marina militare carbotech";
 export let detail_1_tittle_2 = "pam979";
-export let detail_1_img = "asset/details.jpg";
+export let detail_1_img = "asset/details.png";
 
-export let Left_img_1_img = "asset/leftimg1.jpg";
+export let Left_img_1_img = "asset/leftimg1.png";
 export let Left_img_1_tittle_1 = "people create all kind of";
 export let Left_img_1_tittle_2 = "fancy watches";
 export let Left_img_1_price = "$240";
 
-export let Right_img_1_img = "asset/right-img-1.jpg";
+export let Right_img_1_img = "asset/right-img-1.png";
 export let Right_img_1_tittle_1 = "people create all kind of";
 export let Right_img_1_tittle_2 = "fancy watches";
 export let Right_img_1_price = "$240";

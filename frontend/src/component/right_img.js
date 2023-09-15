@@ -3,7 +3,7 @@ import "../animation.css";
 function Right_img(props) {
   return (
     <>
-      <div className="right-img">
+      <div className="right-img" id="right-img">
         <div className="right-img-img">
           <img src={props.img}alt="" />
         </div>
@@ -16,7 +16,7 @@ function Right_img(props) {
             illum architecto iure placeat dolore. Quas eos quasi ex alias
             libero.
           </p>
-          <button>learn more</button>
+          <button onClick={()=>{window.location.href="#left-img"}}>learn more</button>
         </div>
       </div>
       <div className="right-img-bg"></div>

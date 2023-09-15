@@ -10,7 +10,7 @@ function Nav(props) {
                         <p><Link to="/">Home</Link></p>
                         <p><a href='#product'>Products</a></p>
                         <p><a href='#detail'>about</a></p>
-                        <p>review</p>
+                        <p><a href='#right-img'>review</a></p>
                     </div>
                     <img
                         src="asset/handsome-confident-smiling-man-with-hands-crossed-chest_176420-18743.avif"
