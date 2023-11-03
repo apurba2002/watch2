@@ -1,5 +1,5 @@
 import "../App.css";
-import subscribe, { PostData } from "./Suscribe";
+
 import { useState } from "react";
 
 function Footer() {
